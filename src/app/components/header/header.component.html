@@ -45,7 +45,10 @@
                 </li>
 
                 <li class="hidden md:block">
-                    <a href="#" class="nav-link"><i class="fa-solid fa-sun"></i></a>
+                    <a href="#" class="nav-link"  (click)="darkMode.set(!darkMode())">
+                        <i *ngIf="!darkmode()" class="fa-solid fa-sun"></i>
+                        <i *ngIf="darkmode()" class="fa-solid fa-moon"></i>
+                    </a>
                 </li>
 
             </ul>
