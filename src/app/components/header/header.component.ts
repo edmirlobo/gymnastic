@@ -1,4 +1,4 @@
-import { Component, HostBinding, signal } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,9 +9,4 @@ import { Component, HostBinding, signal } from '@angular/core';
 })
 export class HeaderComponent {
 
-  darkMode = signal<boolean>(false);
-
-  @HostBinding('class.dark') get mode() {
-    return this.darkMode();
-  }
 }

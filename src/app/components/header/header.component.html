@@ -9,6 +9,7 @@
             <button data-collapse-toggle="navbar-default" type="button" class="navbar-toggler"
                 aria-controls="navbar-default" aria-expanded="false">
                 <i class="fa-solid fa-sun"></i>
+                <i class="hidden fa-solid fa-moon"></i>
             </button>
 
             <button data-collapse-toggle="navbar-default" type="button" class="navbar-toggler"
@@ -45,9 +46,9 @@
                 </li>
 
                 <li class="hidden md:block">
-                    <a href="#" class="nav-link"  (click)="darkMode.set(!darkMode())">
-                        <i *ngIf="!darkmode()" class="fa-solid fa-sun"></i>
-                        <i *ngIf="darkmode()" class="fa-solid fa-moon"></i>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="hidden fa-solid fa-moon"></i>
                     </a>
                 </li>
 
