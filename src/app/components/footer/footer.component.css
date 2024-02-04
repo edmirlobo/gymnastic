@@ -1,0 +1,9 @@
+.nav-link {
+    @apply block leading-10 font-medium text-gray-900 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:text-white;
+    @apply hover:bg-gray-100 md:hover:bg-transparent dark:hover:bg-chaos-800 md:dark:hover:bg-transparent;
+}
+
+.nav-link-footer {
+    @apply block font-medium px-4 text-gray-900 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:text-white;
+    @apply hover:bg-gray-100 md:hover:bg-transparent dark:hover:bg-chaos-800 md:dark:hover:bg-transparent;
+}
